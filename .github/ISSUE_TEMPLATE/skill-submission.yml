@@ -1,0 +1,71 @@
+name: Skill submission
+description: 推荐一个值得加入 WPIRONMAN Skills 的 skill
+title: "[Skill] "
+labels:
+  - skill-submission
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill 名称
+      description: 请输入公开展示用的名称。
+      placeholder: 例如：Research Writing Assistant
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: 仓库或来源链接
+      description: 必须是可公开访问、可追溯的来源。
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      options:
+        - 论文写作
+        - 文献阅读
+        - 审稿返修
+        - 图表与汇报
+        - 文档处理
+        - 设计
+        - 工程
+        - Prompt
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 适用场景
+      description: 它最适合解决什么真实任务？
+      placeholder: 请写 2-4 句话，越具体越好。
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: 不适用场景或风险
+      description: 什么时候不应该用它？
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证标准
+      description: 至少写两条可以复查的验收标准。
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+  - type: textarea
+    id: install
+    attributes:
+      label: 安装或使用入口
+      description: 请提供可复制的安装命令、README 步骤或使用入口。
+      render: bash
+    validations:
+      required: true
