@@ -1,0 +1,36 @@
+{
+  "id": "anthropic-pdf",
+  "name": "Anthropic PDF",
+  "source": "anthropics/skills/pdf",
+  "origin": "Anthropic 官方",
+  "category": "文档办公",
+  "creator": "Anthropic",
+  "workflow": "PDF 处理工具箱",
+  "installType": "官方 GitHub skill",
+  "status": "官方来源",
+  "quality": "官方 PDF skill",
+  "description": "用于读取、拆分、合并、旋转、加水印、填写表单、加密解密、抽取图片和 OCR PDF。",
+  "bestFor": [
+    "处理合同、报告、论文和扫描件 PDF",
+    "合并、拆分、旋转、填表或加水印",
+    "需要 OCR 让扫描 PDF 可搜索"
+  ],
+  "avoidWhen": [
+    "原文件不是 PDF，也不需要生成 PDF",
+    "需要人工签署或法律效力判断"
+  ],
+  "verification": [
+    "页数、页面尺寸和阅读顺序处理前后可核验",
+    "表单、OCR 或水印结果在抽样页面人工检查通过",
+    "加密、解密和合并操作不会破坏原始文件备份"
+  ],
+  "install": "git clone https://github.com/anthropics/skills.git ~/.codex/anthropic-skills && cp -R ~/.codex/anthropic-skills/skills/pdf ~/.agents/skills/pdf",
+  "repo": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+  "tags": [
+    "PDF",
+    "OCR",
+    "表单",
+    "合并",
+    "官方"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "superpowers-requesting-code-review",
+  "name": "Superpowers Code Review",
+  "source": "obra/superpowers/requesting-code-review",
+  "origin": "第三方高分",
+  "category": "工程开发",
+  "creator": "Jesse Vincent / obra",
+  "workflow": "完成后代码审查",
+  "installType": "GitHub skill",
+  "status": "高分来源",
+  "quality": "审查工作流",
+  "description": "在完成主要功能、子任务或合并前请求独立审查，聚焦需求符合度、缺陷和测试缺口。",
+  "bestFor": [
+    "大功能完成后需要第二视角",
+    "多 agent 或多文件改动需要检查遗漏",
+    "合并前想发现测试、边界和回归风险"
+  ],
+  "avoidWhen": [
+    "只是无行为变化的微小文案修正",
+    "还没有完成可审查的代码差异"
+  ],
+  "verification": [
+    "审查输出按严重程度列发现",
+    "每条问题能定位到文件、行为或测试缺口",
+    "修复后重新运行相关验证"
+  ],
+  "install": "git clone https://github.com/obra/superpowers.git ~/.codex/superpowers && cp -R ~/.codex/superpowers/skills/requesting-code-review ~/.agents/skills/requesting-code-review",
+  "repo": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
+  "tags": [
+    "代码审查",
+    "质量",
+    "合并前",
+    "高分"
+  ]
+}

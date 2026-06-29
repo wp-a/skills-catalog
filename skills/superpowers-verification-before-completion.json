@@ -1,0 +1,35 @@
+{
+  "id": "superpowers-verification-before-completion",
+  "name": "Superpowers Verification",
+  "source": "obra/superpowers/verification-before-completion",
+  "origin": "第三方高分",
+  "category": "工程开发",
+  "creator": "Jesse Vincent / obra",
+  "workflow": "完成前证据验收",
+  "installType": "GitHub skill",
+  "status": "高分来源",
+  "quality": "完成声明守门员",
+  "description": "在声称完成、修好或通过之前强制运行验证命令，用证据替代口头确认。",
+  "bestFor": [
+    "完成开发任务前做最后验收",
+    "防止 agent 没跑测试就说完成",
+    "需要把命令输出和成功标准写清楚"
+  ],
+  "avoidWhen": [
+    "任务没有任何可验证产物",
+    "验证依赖外部状态且当前无法访问"
+  ],
+  "verification": [
+    "列出实际运行的命令和结果",
+    "失败项明确说明未完成而不是淡化",
+    "人工检查、截图或日志证据可回看"
+  ],
+  "install": "git clone https://github.com/obra/superpowers.git ~/.codex/superpowers && cp -R ~/.codex/superpowers/skills/verification-before-completion ~/.agents/skills/verification-before-completion",
+  "repo": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
+  "tags": [
+    "验收",
+    "测试",
+    "证据",
+    "高分"
+  ]
+}

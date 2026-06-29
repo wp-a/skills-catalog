@@ -1,0 +1,177 @@
+[
+  {
+    "id": "all",
+    "name": "全部",
+    "label": "All",
+    "icon": "fa-layer-group",
+    "description": "显示当前收录的全部可下载 skills。推荐路径可以跨分类组合，目录分类只负责快速定位。",
+    "filters": [],
+    "skillIds": []
+  },
+  {
+    "id": "paper-reading",
+    "name": "文献阅读",
+    "label": "Reading",
+    "icon": "fa-book-open",
+    "description": "把论文 PDF 读懂、拆开，并保留图表、引用和正文之间的证据关系。",
+    "filters": [
+      "论文写作"
+    ],
+    "skillIds": [
+      "nature-reader"
+    ]
+  },
+  {
+    "id": "literature-citation",
+    "name": "检索引用",
+    "label": "Evidence",
+    "icon": "fa-search",
+    "description": "检索相关工作、核验 DOI/BibTeX，并把 claim 与可信来源绑定起来。",
+    "filters": [
+      "文献检索"
+    ],
+    "skillIds": [
+      "nature-academic-search",
+      "nature-citation"
+    ]
+  },
+  {
+    "id": "paper-writing",
+    "name": "论文写作",
+    "label": "Writing",
+    "icon": "fa-pencil-alt",
+    "description": "从初稿、章节重写、Nature 风格叙事到英文润色的正文生产流程。",
+    "filters": [
+      "论文写作"
+    ],
+    "skillIds": [
+      "ml-paper-writing",
+      "research-paper-writing",
+      "research-writing-assistant",
+      "nature-writing",
+      "nature-polishing"
+    ]
+  },
+  {
+    "id": "review-revision",
+    "name": "审稿返修",
+    "label": "Review",
+    "icon": "fa-comments",
+    "description": "投稿前预审、审稿意见拆解、返修计划和 point-by-point 回复。",
+    "filters": [
+      "审稿"
+    ],
+    "skillIds": [
+      "academic-review-workflow",
+      "nature-response"
+    ]
+  },
+  {
+    "id": "figures-presentation",
+    "name": "图表演示",
+    "label": "Slides",
+    "icon": "fa-chart-line",
+    "description": "打磨论文图表、caption、组会 PPT、答辩材料和视觉化讲述顺序。",
+    "filters": [
+      "PPT",
+      "论文写作"
+    ],
+    "skillIds": [
+      "nature-figure",
+      "nature-paper2ppt",
+      "guizang-ppt-skill",
+      "anthropic-pptx"
+    ]
+  },
+  {
+    "id": "pdf-tools",
+    "name": "PDF 工具",
+    "label": "PDF",
+    "icon": "fa-file-pdf",
+    "description": "读取、渲染、生成和抽查 PDF，用于论文、报告和审稿材料的版面核验。",
+    "filters": [
+      "论文写作",
+      "文档办公"
+    ],
+    "skillIds": [
+      "pdf",
+      "anthropic-pdf"
+    ]
+  },
+  {
+    "id": "document-office",
+    "name": "文档办公",
+    "label": "Office",
+    "icon": "fa-file-alt",
+    "description": "处理 Word、Excel、CSV 和结构化办公文档，适合报告、表格和可编辑交付物。",
+    "filters": [
+      "文档办公"
+    ],
+    "skillIds": [
+      "anthropic-docx",
+      "anthropic-xlsx"
+    ]
+  },
+  {
+    "id": "ui-design",
+    "name": "UI 设计",
+    "label": "UI",
+    "icon": "fa-quote-right",
+    "description": "把参考页面、截图和交互案例转成高级 UI section 设计方案。",
+    "filters": [
+      "设计",
+      "前端"
+    ],
+    "skillIds": [
+      "premium-section-prompts"
+    ]
+  },
+  {
+    "id": "site-design",
+    "name": "站点设计",
+    "label": "Design",
+    "icon": "fa-adjust",
+    "description": "面向博客、项目页和产品页面的视觉审计、重设计、品牌一致性与上线前 QA。",
+    "filters": [
+      "设计"
+    ],
+    "skillIds": [
+      "wpironman-blog-design",
+      "design-taste-frontend",
+      "redesign-existing-projects"
+    ]
+  },
+  {
+    "id": "frontend-build",
+    "name": "前端实现",
+    "label": "Frontend",
+    "icon": "fa-code",
+    "description": "从参考图、动效方向和明确界面需求出发，把设计转成可运行前端。",
+    "filters": [
+      "前端"
+    ],
+    "skillIds": [
+      "gpt-taste",
+      "image-to-code"
+    ]
+  },
+  {
+    "id": "engineering-dev",
+    "name": "工程开发",
+    "label": "Engineering",
+    "icon": "fa-terminal",
+    "description": "覆盖 Web 测试、MCP 工具开发、skill 创作、TDD、调试、验收和代码审查。",
+    "filters": [
+      "工程开发"
+    ],
+    "skillIds": [
+      "anthropic-webapp-testing",
+      "anthropic-mcp-builder",
+      "anthropic-skill-creator",
+      "superpowers-test-driven-development",
+      "superpowers-systematic-debugging",
+      "superpowers-verification-before-completion",
+      "superpowers-requesting-code-review"
+    ]
+  }
+]

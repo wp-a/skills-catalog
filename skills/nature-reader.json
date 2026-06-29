@@ -1,0 +1,36 @@
+{
+  "id": "nature-reader",
+  "name": "Nature 论文阅读器",
+  "source": "wp-a/nature-reader",
+  "origin": "WPIRONMAN",
+  "category": "论文写作",
+  "creator": "WPIRONMAN",
+  "workflow": "论文精读",
+  "installType": "独立仓库",
+  "status": "工作流已验证",
+  "quality": "可用科研工作流",
+  "description": "生成有来源锚点的中英文论文阅读稿，并尽量保留图表、表格和引用语境。",
+  "bestFor": [
+    "阅读密集的机器学习或科学论文",
+    "从 PDF 生成双语精读笔记",
+    "保留图表和正文之间的论证关系"
+  ],
+  "avoidWhen": [
+    "只需要一段很短的摘要",
+    "原始 PDF 不可用或内容不完整"
+  ],
+  "verification": [
+    "输出保留原文锚点，关键结论能回查到 PDF 或来源文本",
+    "图表、表格与相关正文放在相邻语境中",
+    "双语内容不把解释性扩写伪装成原文翻译"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-reader",
+  "repo": "https://github.com/wp-a/nature-reader",
+  "tags": [
+    "科研",
+    "论文",
+    "双语",
+    "PDF",
+    "Paper"
+  ]
+}

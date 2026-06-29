@@ -1,0 +1,35 @@
+{
+  "id": "image-to-code",
+  "name": "Image To Code",
+  "source": "Leonxlnx/taste-skill",
+  "origin": "第三方",
+  "category": "前端",
+  "creator": "Leonxlnx",
+  "workflow": "参考图复刻",
+  "installType": "GitHub skill",
+  "status": "来源已标注",
+  "quality": "图像优先流程",
+  "description": "先分析视觉参考的结构和层级，再把参考图转成可实现的前端工作流。",
+  "bestFor": [
+    "根据已给参考图重建页面",
+    "减少实现过程中的泛化设计决策",
+    "从截图出发做设计 QA"
+  ],
+  "avoidWhen": [
+    "没有明确参考图",
+    "界面之前还需要原创品牌策略"
+  ],
+  "verification": [
+    "先拆解参考图的布局、比例、文字层级和交互意图",
+    "实现结果与参考的核心结构一致，但不复制受限素材",
+    "截图对比确认主要断点的视觉比例没有走样"
+  ],
+  "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"image-to-code\"",
+  "repo": "https://github.com/Leonxlnx/taste-skill",
+  "tags": [
+    "图像",
+    "前端",
+    "参考",
+    "实现"
+  ]
+}

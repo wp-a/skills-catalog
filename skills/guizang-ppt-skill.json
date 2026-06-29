@@ -1,0 +1,35 @@
+{
+  "id": "guizang-ppt-skill",
+  "name": "歸藏 PPT Skill",
+  "source": "op7418/guizang-ppt-skill",
+  "origin": "第三方",
+  "category": "PPT",
+  "creator": "歸藏",
+  "workflow": "高质量演示文稿",
+  "installType": "GitHub skill",
+  "status": "来源已标注",
+  "quality": "第三方 PPT 工作流",
+  "description": "用于生成高级视觉 PPT/HTML 演示稿，适合课程展示、路演和论文汇报的视觉排版。",
+  "bestFor": [
+    "需要更强视觉表现的 PPT",
+    "课程答辩、项目路演、论文报告",
+    "已有明确内容但需要专业排版"
+  ],
+  "avoidWhen": [
+    "只需要普通 Markdown 大纲",
+    "内容还没有组织成演示故事线"
+  ],
+  "verification": [
+    "演示稿结构有清晰封面、转场、主体和结尾",
+    "视觉资产、字体和图表在目标导出格式中正常显示",
+    "页面不因动效或装饰牺牲可读性"
+  ],
+  "install": "npx skills add https://github.com/op7418/guizang-ppt-skill",
+  "repo": "https://github.com/op7418/guizang-ppt-skill",
+  "tags": [
+    "PPT",
+    "演示",
+    "课程",
+    "路演"
+  ]
+}

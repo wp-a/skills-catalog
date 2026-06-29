@@ -1,0 +1,78 @@
+[
+  {
+    "id": "paper-submission-stack",
+    "name": "Paper Submission Stack",
+    "summary": "从阅读到投稿的闭环：精读、检索、写作、润色、图表、返修。",
+    "steps": [
+      "nature-reader",
+      "nature-academic-search",
+      "nature-writing",
+      "nature-polishing",
+      "nature-figure",
+      "nature-paper2ppt"
+    ],
+    "focus": "适合正式投稿和返修前准备。"
+  },
+  {
+    "id": "review-response-stack",
+    "name": "Review Response Stack",
+    "summary": "把 reviewer comments 转成修改计划、证据和回复信。",
+    "steps": [
+      "academic-review-workflow",
+      "nature-response",
+      "nature-citation",
+      "pdf"
+    ],
+    "focus": "适合审稿回复和修改清单。"
+  },
+  {
+    "id": "design-ship-stack",
+    "name": "Design Ship Stack",
+    "summary": "先审计，再参考，再实现，再验证。",
+    "steps": [
+      "wpironman-blog-design",
+      "design-taste-frontend",
+      "redesign-existing-projects",
+      "image-to-code"
+    ],
+    "focus": "适合博客、项目页和界面重设计。"
+  },
+  {
+    "id": "skill-audit-stack",
+    "name": "Skill Audit Stack",
+    "summary": "从来源、安装、边界和验收标准判断 skill 是否值得长期使用。",
+    "steps": [
+      "wpironman-blog-design",
+      "design-taste-frontend",
+      "research-writing-assistant",
+      "ml-paper-writing",
+      "pdf"
+    ],
+    "focus": "适合收录前的选型和清单整理。"
+  },
+  {
+    "id": "office-delivery-stack",
+    "name": "Office Delivery Stack",
+    "summary": "把 Word、Excel、PDF 和 PPTX 交付物放进一个可检查的文档流程。",
+    "steps": [
+      "anthropic-docx",
+      "anthropic-xlsx",
+      "anthropic-pdf",
+      "anthropic-pptx"
+    ],
+    "focus": "适合报告、表格、扫描件和演示文稿交付。"
+  },
+  {
+    "id": "engineering-quality-stack",
+    "name": "Engineering Quality Stack",
+    "summary": "从实现、测试、调试、浏览器验收到代码审查的工程闭环。",
+    "steps": [
+      "superpowers-test-driven-development",
+      "superpowers-systematic-debugging",
+      "anthropic-webapp-testing",
+      "superpowers-verification-before-completion",
+      "superpowers-requesting-code-review"
+    ],
+    "focus": "适合修 bug、做功能、交付 Web 应用和工具链。"
+  }
+]

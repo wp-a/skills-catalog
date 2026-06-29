@@ -1,0 +1,35 @@
+{
+  "id": "anthropic-webapp-testing",
+  "name": "Anthropic Webapp Testing",
+  "source": "anthropics/skills/webapp-testing",
+  "origin": "Anthropic 官方",
+  "category": "工程开发",
+  "creator": "Anthropic",
+  "workflow": "Playwright 真实浏览器验收",
+  "installType": "官方 GitHub skill",
+  "status": "官方来源",
+  "quality": "官方 Web 测试 skill",
+  "description": "用 Playwright 与本地 Web 应用交互，验证前端功能、调试 UI 行为、截图并收集浏览器日志。",
+  "bestFor": [
+    "本地前端改动后的真实浏览器 QA",
+    "复现 UI bug、检查交互状态和控制台错误",
+    "用脚本验证桌面与移动端关键流程"
+  ],
+  "avoidWhen": [
+    "页面不需要浏览器运行即可静态检查",
+    "服务端或数据问题还没有能打开的前端入口"
+  ],
+  "verification": [
+    "动态页面等待 networkidle 后再检查 DOM",
+    "脚本关闭浏览器并记录控制台错误",
+    "关键断点截图、交互结果和溢出指标可复查"
+  ],
+  "install": "git clone https://github.com/anthropics/skills.git ~/.codex/anthropic-skills && cp -R ~/.codex/anthropic-skills/skills/webapp-testing ~/.agents/skills/webapp-testing",
+  "repo": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+  "tags": [
+    "Playwright",
+    "Web QA",
+    "前端测试",
+    "官方"
+  ]
+}

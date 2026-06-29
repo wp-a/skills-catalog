@@ -1,0 +1,26 @@
+[
+  {
+    "id": "best-skills",
+    "title": "从任务进入",
+    "source": "xstongxue/best-skills",
+    "lesson": "先回答“我要完成什么”，再展示相关 skills，避免用户在长列表里盲找。"
+  },
+  {
+    "id": "awesome-claude-skills",
+    "title": "保持目录可扫读",
+    "source": "ComposioHQ/awesome-claude-skills",
+    "lesson": "用清晰大类承接长目录，并让每个条目都有用途、安装方式和边界说明。"
+  },
+  {
+    "id": "anthropic-skills",
+    "title": "条目必须可执行",
+    "source": "anthropics/skills",
+    "lesson": "优先收录有明确说明、脚本、引用或资产的 skill，降低下载后无法使用的概率。"
+  },
+  {
+    "id": "superpowers",
+    "title": "组合而不是收藏",
+    "source": "obra/superpowers",
+    "lesson": "把 skills 串成计划、执行、测试和验收的流程，而不是只做孤立收藏夹。"
+  }
+]

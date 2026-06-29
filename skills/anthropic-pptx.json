@@ -1,0 +1,35 @@
+{
+  "id": "anthropic-pptx",
+  "name": "Anthropic PPTX",
+  "source": "anthropics/skills/pptx",
+  "origin": "Anthropic 官方",
+  "category": "PPT",
+  "creator": "Anthropic",
+  "workflow": "PowerPoint 读写编辑",
+  "installType": "官方 GitHub skill",
+  "status": "官方来源",
+  "quality": "官方演示文档 skill",
+  "description": "用于创建、读取、编辑和合并 PowerPoint 文件，处理版式、模板、讲稿、备注、表格和评论。",
+  "bestFor": [
+    "生成可继续编辑的 PPTX 演示文稿",
+    "修改已有 deck 的文字、版式、备注或评论",
+    "从报告、表格和讲稿整理成演示交付物"
+  ],
+  "avoidWhen": [
+    "只需要静态海报或艺术图",
+    "没有明确演示结构，只想自动生成大量装饰页"
+  ],
+  "verification": [
+    "导出的 PPTX 能正常打开并保持可编辑",
+    "版式、图片、表格和讲稿在主要幻灯片抽样检查通过",
+    "合并或拆分 deck 后页序、备注和模板没有丢失"
+  ],
+  "install": "git clone https://github.com/anthropics/skills.git ~/.codex/anthropic-skills && cp -R ~/.codex/anthropic-skills/skills/pptx ~/.agents/skills/pptx",
+  "repo": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+  "tags": [
+    "PPTX",
+    "PowerPoint",
+    "演示",
+    "官方"
+  ]
+}

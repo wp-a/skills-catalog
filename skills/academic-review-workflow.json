@@ -1,0 +1,35 @@
+{
+  "id": "academic-review-workflow",
+  "name": "学术审稿工作流",
+  "source": "WPIRONMAN AcademicSubmission",
+  "origin": "WPIRONMAN",
+  "category": "审稿",
+  "creator": "WPIRONMAN",
+  "workflow": "稿件预审",
+  "installType": "GitHub 仓库",
+  "status": "产品工作流",
+  "quality": "产品化工作流",
+  "description": "围绕证据、相关工作、修改计划和期刊会议匹配构建的稿件预审工作流。",
+  "bestFor": [
+    "投稿前的稿件诊断",
+    "生成 reviewer 风格的问题与修改计划",
+    "把 AI 预审接入学术产品界面"
+  ],
+  "avoidWhen": [
+    "需要法律效力或正式同行评审结论",
+    "稿件不能交给 AI 工作流处理"
+  ],
+  "verification": [
+    "预审结论区分证据问题、表达问题和投稿匹配问题",
+    "修改计划能映射到具体章节、图表或实验",
+    "不会把 AI 预审结果表述为正式同行评审结论"
+  ],
+  "install": "git clone https://github.com/wp-a/academic-submission.git",
+  "repo": "https://github.com/wp-a/academic-submission/tree/main/AcademicSubmission/deep_research_review_v2",
+  "tags": [
+    "审稿",
+    "学术",
+    "证据",
+    "工作流"
+  ]
+}

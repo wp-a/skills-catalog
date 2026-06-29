@@ -1,0 +1,36 @@
+{
+  "id": "anthropic-xlsx",
+  "name": "Anthropic XLSX",
+  "source": "anthropics/skills/xlsx",
+  "origin": "Anthropic 官方",
+  "category": "文档办公",
+  "creator": "Anthropic",
+  "workflow": "表格清洗与建模",
+  "installType": "官方 GitHub skill",
+  "status": "官方来源",
+  "quality": "官方表格 skill",
+  "description": "用于读取、清洗、编辑和生成电子表格，覆盖公式、格式、图表、CSV/TSV 转换和数据整理。",
+  "bestFor": [
+    "清洗 CSV、TSV、XLSX 或 XLSM 数据",
+    "给表格增加公式、汇总列、格式和图表",
+    "从结构化数据生成可交付的 Excel 工作簿"
+  ],
+  "avoidWhen": [
+    "数据量已经超出普通电子表格适合处理的规模",
+    "需要生产数据库级事务一致性，而不是工作簿交付"
+  ],
+  "verification": [
+    "公式能重新计算且关键汇总值可抽样核验",
+    "表头、数据类型、冻结窗格和格式符合交付要求",
+    "CSV/TSV/XLSX 转换后行列数量没有意外变化"
+  ],
+  "install": "git clone https://github.com/anthropics/skills.git ~/.codex/anthropic-skills && cp -R ~/.codex/anthropic-skills/skills/xlsx ~/.agents/skills/xlsx",
+  "repo": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+  "tags": [
+    "XLSX",
+    "Excel",
+    "CSV",
+    "数据清洗",
+    "官方"
+  ]
+}

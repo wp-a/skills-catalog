@@ -1,0 +1,82 @@
+[
+  {
+    "id": "codex-provider-metadata-recovery",
+    "name": "Codex Provider Metadata 恢复",
+    "risk": "高风险：会触及 Codex 本地会话状态",
+    "source": "Dailin521/codex-provider-sync",
+    "summary": "用于找回 Desktop 或 /resume 中消失的旧会话。",
+    "checks": [
+      "先备份 config/auth/state",
+      "恢复后旧会话重新可见"
+    ],
+    "scenario": "旧会话因为 provider、可见性 metadata 或项目路径缓存不一致，在 Desktop 或 /resume 里不可见。",
+    "touches": [
+      "Codex rollout 文件",
+      "~/.codex/state_5.sqlite 线程表",
+      "项目路径缓存与可见性 metadata"
+    ],
+    "backups": [
+      "~/.codex/config.toml",
+      "~/.codex/auth.json",
+      "~/.codex/state_5.sqlite",
+      "工具文档要求备份的 rollout/cache 文件"
+    ],
+    "donts": [
+      "不要在 Codex 仍运行时修改状态文件",
+      "不要把恢复 metadata 理解成切换 API provider",
+      "不要在没有备份的情况下覆盖 config/auth/state"
+    ],
+    "steps": [
+      "确认当前 Codex 基础配置可正常连接目标 API 服务商",
+      "从官方仓库克隆 codex-provider-sync 并按 README 安装依赖",
+      "执行工具的核心恢复命令，修复 rollout、SQLite 和路径缓存里的 metadata 不一致",
+      "重启 Codex 后检查 Desktop 或 /resume 中旧会话是否恢复可见"
+    ],
+    "acceptance": [
+      "旧会话重新出现在 Desktop 或 /resume",
+      "原 API 中转配置仍可使用",
+      "config.toml 与 auth.json 没有被无意修改"
+    ],
+    "repo": "https://github.com/Dailin521/codex-provider-sync"
+  },
+  {
+    "id": "codex-plus-plus-plugin-entry",
+    "name": "Codex++ 插件入口解锁",
+    "risk": "中高风险：涉及桌面端启动路径与第三方增强器",
+    "source": "BigPizzaV3/CodexPlusPlus",
+    "summary": "用于找回桌面端插件入口，同时保留现有 API 配置。",
+    "checks": [
+      "先备份本地配置",
+      "入口可见且 API 仍可用"
+    ],
+    "scenario": "Codex Desktop 已能使用中转 API，但插件按钮或传统增强入口不可见，需要从 Codex++ 启动解锁入口。",
+    "touches": [
+      "Codex++ 应用安装与启动方式",
+      "Codex Desktop 插件入口显示状态",
+      "本地 Codex state 只读核验"
+    ],
+    "backups": [
+      "~/.codex/config.toml",
+      "~/.codex/auth.json",
+      "~/.codex/state_5.sqlite"
+    ],
+    "donts": [
+      "不要使用 Codex++ 的中转注入模式",
+      "不要切换 ChatGPT 登录",
+      "不要清除 API Key 模式",
+      "不要修改 provider 或任何 API 配置"
+    ],
+    "steps": [
+      "备份 config.toml、auth.json 和 state_5.sqlite",
+      "从官方 GitHub Release 下载适合 macOS 的安装包",
+      "只使用传统增强或插件入口解锁功能",
+      "完全退出原版 Codex 后，从 Codex++ 重新启动 Codex"
+    ],
+    "acceptance": [
+      "插件按钮可点击",
+      "原来的中转站 API 仍然可用",
+      "config.toml 和 auth.json 内容保持不变"
+    ],
+    "repo": "https://github.com/BigPizzaV3/CodexPlusPlus"
+  }
+]

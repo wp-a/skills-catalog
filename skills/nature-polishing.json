@@ -1,0 +1,35 @@
+{
+  "id": "nature-polishing",
+  "name": "Nature 英文润色",
+  "source": "wp-a/nature-polishing",
+  "origin": "WPIRONMAN",
+  "category": "论文写作",
+  "creator": "WPIRONMAN",
+  "workflow": "学术英文润色",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "句子级与段落级润色",
+  "description": "用于学术英文润色、中文作者表达校准、hedging、claim 强度和 Nature/Nature Communications 风格表达。",
+  "bestFor": [
+    "论文已有英文稿，需要变得更像学术论文",
+    "需要校准 claim 强度，避免过度承诺",
+    "中文式英文需要重写成自然学术表达"
+  ],
+  "avoidWhen": [
+    "论文本身逻辑还没成立",
+    "需要补实验或补引用，而不是改句子"
+  ],
+  "verification": [
+    "润色后语义与作者原稿一致",
+    "hedging、时态、术语和 claim 强度符合目标期刊语境",
+    "修改记录能区分语言改写和科学内容建议"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-polishing",
+  "repo": "https://github.com/wp-a/nature-polishing",
+  "tags": [
+    "润色",
+    "Academic English",
+    "Nature",
+    "中文作者"
+  ]
+}

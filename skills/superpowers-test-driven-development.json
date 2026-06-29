@@ -1,0 +1,35 @@
+{
+  "id": "superpowers-test-driven-development",
+  "name": "Superpowers TDD",
+  "source": "obra/superpowers/test-driven-development",
+  "origin": "第三方高分",
+  "category": "工程开发",
+  "creator": "Jesse Vincent / obra",
+  "workflow": "红绿重构开发",
+  "installType": "GitHub skill",
+  "status": "高分来源",
+  "quality": "87/100 公开评分",
+  "description": "强制先写失败测试、再写最小实现、最后重构，用红绿重构约束功能和 bugfix 开发。",
+  "bestFor": [
+    "实现功能或修 bug 时需要防回归",
+    "希望 agent 不直接跳到实现代码",
+    "需要留下可证明的红绿测试证据"
+  ],
+  "avoidWhen": [
+    "任务是纯探索或不适合自动化测试",
+    "现有代码库无法运行任何相关测试"
+  ],
+  "verification": [
+    "先看到测试失败，再看到同一测试通过",
+    "实现只做让测试通过所需的最小改动",
+    "重构后完整测试仍通过"
+  ],
+  "install": "git clone https://github.com/obra/superpowers.git ~/.codex/superpowers && cp -R ~/.codex/superpowers/skills/test-driven-development ~/.agents/skills/test-driven-development",
+  "repo": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+  "tags": [
+    "TDD",
+    "测试",
+    "红绿重构",
+    "高分"
+  ]
+}

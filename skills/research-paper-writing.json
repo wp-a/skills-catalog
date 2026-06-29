@@ -1,0 +1,35 @@
+{
+  "id": "research-paper-writing",
+  "name": "Research Paper Writing",
+  "source": "wp-a/research-paper-writing",
+  "origin": "WPIRONMAN",
+  "category": "论文写作",
+  "creator": "WPIRONMAN",
+  "workflow": "段落与章节重写",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "论文表达与自查",
+  "description": "用于 ML/CV/NLP 论文的 Abstract、Introduction、Related Work、Method、Experiments 等章节重写与 claim-evidence 对齐。",
+  "bestFor": [
+    "论文已有内容，但逻辑、段落流或 reviewer-facing 表达不清",
+    "需要逐段改写、反向大纲和 claim-support 检查",
+    "投稿前做自审稿和图表文字检查"
+  ],
+  "avoidWhen": [
+    "需要从零做文献检索",
+    "作者还没有确定核心 story"
+  ],
+  "verification": [
+    "每个段落有明确 topic sentence 和 claim-evidence 关系",
+    "重写后保留作者原始科学结论，不新增无来源结论",
+    "投稿前完成 reviewer-facing 自查和图表文字检查"
+  ],
+  "install": "npx skills add https://github.com/wp-a/research-paper-writing",
+  "repo": "https://github.com/wp-a/research-paper-writing",
+  "tags": [
+    "论文写作",
+    "改写",
+    "审稿视角",
+    "段落流"
+  ]
+}

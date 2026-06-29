@@ -1,0 +1,35 @@
+{
+  "id": "gpt-taste",
+  "name": "GPT Taste",
+  "source": "Leonxlnx/taste-skill",
+  "origin": "第三方",
+  "category": "前端",
+  "creator": "Leonxlnx",
+  "workflow": "动效前端",
+  "installType": "GitHub skill",
+  "status": "来源已标注",
+  "quality": "强动效变体",
+  "description": "面向 GPT 与 Codex 的更强约束视觉 skill，适合高变化度 landing page 和动效更重的界面。",
+  "bestFor": [
+    "需要强视觉冲击的产品发布页",
+    "Awwwards 风格探索",
+    "需求明确要求更大胆动效的场景"
+  ],
+  "avoidWhen": [
+    "页面信息密度很高",
+    "品牌更需要安静、可信和克制"
+  ],
+  "verification": [
+    "动效服务于信息层级，而不是遮挡内容",
+    "低性能或 reduced-motion 场景仍能完整浏览页面",
+    "关键 CTA、正文和媒体在主要视口中保持可读"
+  ],
+  "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"gpt-taste\"",
+  "repo": "https://github.com/Leonxlnx/taste-skill",
+  "tags": [
+    "动效",
+    "GSAP",
+    "Landing",
+    "Codex"
+  ]
+}

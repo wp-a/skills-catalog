@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WPIRONMAN Skill",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "source",
+    "origin",
+    "category",
+    "creator",
+    "workflow",
+    "installType",
+    "status",
+    "quality",
+    "description",
+    "bestFor",
+    "avoidWhen",
+    "verification",
+    "install",
+    "repo",
+    "tags"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "name": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "source": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "origin": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "category": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "creator": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "workflow": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "installType": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "status": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "quality": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "description": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "bestFor": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "avoidWhen": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "verification": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "install": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "repo": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "tags": {
+      "type": [
+        "string",
+        "array"
+      ]
+    }
+  }
+}

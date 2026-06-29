@@ -1,0 +1,36 @@
+{
+  "id": "nature-writing",
+  "name": "Nature 风格正文写作",
+  "source": "wp-a/nature-writing",
+  "origin": "WPIRONMAN",
+  "category": "论文写作",
+  "creator": "WPIRONMAN",
+  "workflow": "Nature-style manuscript",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "高影响力论文写作",
+  "description": "从中文 notes、结果、图表和贡献边界出发，重建摘要、引言、结果叙事、讨论和结论。",
+  "bestFor": [
+    "把实验结果组织成 Nature/Nature Communications 风格故事线",
+    "需要先定 argument，再写句子",
+    "中文实验 notes 转英文 manuscript prose"
+  ],
+  "avoidWhen": [
+    "只需要语法润色",
+    "缺少核心 claim、证据或边界"
+  ],
+  "verification": [
+    "摘要、引言、结果和讨论共享同一条主张线",
+    "每个 claim 都能对应结果、图表或引用",
+    "改写后没有扩大贡献边界或隐藏负结果"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-writing",
+  "repo": "https://github.com/wp-a/nature-writing",
+  "tags": [
+    "Nature",
+    "Manuscript",
+    "摘要",
+    "引言",
+    "结果"
+  ]
+}

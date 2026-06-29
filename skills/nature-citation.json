@@ -1,0 +1,36 @@
+{
+  "id": "nature-citation",
+  "name": "Nature/CNS 引用补全",
+  "source": "wp-a/nature-citation",
+  "origin": "WPIRONMAN",
+  "category": "文献检索",
+  "creator": "WPIRONMAN",
+  "workflow": "引用插入与核验",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "严格引用流程",
+  "description": "把长段论文文本拆成可引用 claim，优先检索高质量来源，生成可审阅的 citation map。",
+  "bestFor": [
+    "给论文段落补引用",
+    "检查每个 claim 是否真的有来源支持",
+    "避免 AI 伪造参考文献"
+  ],
+  "avoidWhen": [
+    "用户只需要格式化已有参考文献",
+    "无法访问或核验相关来源"
+  ],
+  "verification": [
+    "每个补充引用都绑定到具体 claim",
+    "来源 title、DOI、期刊和年份能独立回查",
+    "无法核验的引用会被标记为待确认而不是直接写入"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-citation",
+  "repo": "https://github.com/wp-a/nature-citation",
+  "tags": [
+    "引用",
+    "CNS",
+    "BibTeX",
+    "证据",
+    "核验"
+  ]
+}

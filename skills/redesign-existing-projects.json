@@ -1,0 +1,35 @@
+{
+  "id": "redesign-existing-projects",
+  "name": "既有项目重设计",
+  "source": "Leonxlnx/taste-skill",
+  "origin": "第三方",
+  "category": "设计",
+  "creator": "Leonxlnx",
+  "workflow": "先审计再重设计",
+  "installType": "GitHub skill",
+  "status": "来源已标注",
+  "quality": "审计优先重设计",
+  "description": "先审计既有界面，再调整布局、层级、间距和风格，避免无上下文重做。",
+  "bestFor": [
+    "在不破坏产品逻辑的前提下改进现有站点",
+    "发现真实代码库里的设计回退",
+    "用更有意图的结构替换泛化卡片"
+  ],
+  "avoidWhen": [
+    "正在从空白页面开始",
+    "只需要文案或内容层面的调整"
+  ],
+  "verification": [
+    "先记录现有界面的真实问题和保留约束",
+    "重设计后核心业务流程没有被装饰性布局打断",
+    "用截图和交互检查确认改动比原界面更清晰"
+  ],
+  "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"redesign-existing-projects\"",
+  "repo": "https://github.com/Leonxlnx/taste-skill",
+  "tags": [
+    "重设计",
+    "审计",
+    "UI",
+    "质量"
+  ]
+}

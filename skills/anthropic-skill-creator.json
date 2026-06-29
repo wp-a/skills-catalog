@@ -1,0 +1,35 @@
+{
+  "id": "anthropic-skill-creator",
+  "name": "Anthropic Skill Creator",
+  "source": "anthropics/skills/skill-creator",
+  "origin": "Anthropic 官方",
+  "category": "工程开发",
+  "creator": "Anthropic",
+  "workflow": "Skill 设计与测试",
+  "installType": "官方 GitHub skill",
+  "status": "官方来源",
+  "quality": "官方 skill 创建流程",
+  "description": "用于设计、编写、测试和评估新的 Agent Skill，强调先定义能力边界再做压力测试。",
+  "bestFor": [
+    "把重复工作沉淀成可复用 skill",
+    "为团队工作流写 SKILL.md 和测试 prompts",
+    "评估 skill 是否真的改变 agent 行为"
+  ],
+  "avoidWhen": [
+    "只是一次性提示词，不值得沉淀成 skill",
+    "没有真实失败案例或压力场景可测试"
+  ],
+  "verification": [
+    "先记录没有 skill 时的失败行为",
+    "用测试 prompts 验证 skill 后行为改善",
+    "说明触发条件、边界、脚本和引用资料"
+  ],
+  "install": "git clone https://github.com/anthropics/skills.git ~/.codex/anthropic-skills && cp -R ~/.codex/anthropic-skills/skills/skill-creator ~/.agents/skills/skill-creator",
+  "repo": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+  "tags": [
+    "Skill",
+    "测试",
+    "流程文档",
+    "官方"
+  ]
+}

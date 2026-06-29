@@ -1,0 +1,35 @@
+{
+  "id": "premium-section-prompts",
+  "name": "Premium UI Design",
+  "source": "wp-a/premium-section-prompts",
+  "origin": "WPIRONMAN",
+  "category": "设计",
+  "creator": "WPIRONMAN",
+  "workflow": "高级 UI 设计",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "高级 UI section 设计库",
+  "description": "把高质量参考页面、截图和交互案例转成可执行的 UI 设计 brief、section 结构和 QA 清单。",
+  "bestFor": [
+    "把高级参考站点转成可执行 UI 设计方案",
+    "为 Hero、Footer、Pricing、404、Carousel 等 section 定义版式、动效和交互",
+    "需要区分结构、动效、响应式和验收标准"
+  ],
+  "avoidWhen": [
+    "只需要一句很短的灵感描述",
+    "还没有任何参考图、参考站或目标 section 类型"
+  ],
+  "verification": [
+    "设计 brief 明确 section 类型、内容层级、媒体策略和交互约束",
+    "包含响应式行为、motion 和 QA 检查",
+    "最终输出能指导 Codex、v0、Framer 或前端实现"
+  ],
+  "install": "npx skills add https://github.com/wp-a/premium-section-prompts",
+  "repo": "https://github.com/wp-a/premium-section-prompts",
+  "tags": [
+    "UI",
+    "设计",
+    "高级",
+    "Section"
+  ]
+}

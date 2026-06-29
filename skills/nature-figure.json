@@ -1,0 +1,35 @@
+{
+  "id": "nature-figure",
+  "name": "论文图表打磨",
+  "source": "wp-a/nature-figure",
+  "origin": "WPIRONMAN",
+  "category": "论文写作",
+  "creator": "WPIRONMAN",
+  "workflow": "Figure polish",
+  "installType": "独立仓库",
+  "status": "轻量公开版",
+  "quality": "图表审查与导出",
+  "description": "用于论文图、表、caption 和导出规格的最终质量检查；大资产模板未整包放入站点仓库。",
+  "bestFor": [
+    "投稿前检查图表可读性、尺寸、字体和 caption",
+    "统一多 panel 图和表格风格",
+    "补 source data、统计说明和导出合同"
+  ],
+  "avoidWhen": [
+    "还没有任何图表草稿",
+    "需要完整私有模板资产"
+  ],
+  "verification": [
+    "字体、线宽、色彩和 panel 标注符合目标期刊导出规格",
+    "caption、统计说明和 source data 与图中信息一致",
+    "SVG/PDF/TIFF 等目标格式能打开并保持清晰"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-figure",
+  "repo": "https://github.com/wp-a/nature-figure",
+  "tags": [
+    "Figure",
+    "Table",
+    "Caption",
+    "投稿"
+  ]
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "task-paper",
+    "title": "写论文 / 返修 / 汇报",
+    "summary": "从阅读、检索、正文到返修和汇报，组合一条可持续迭代的学术工作流。",
+    "signal": "适合研究生、早期科研人员和技术写作者",
+    "routeId": "research-thesis",
+    "skillIds": [
+      "research-writing-assistant",
+      "nature-reader",
+      "nature-academic-search",
+      "nature-citation",
+      "nature-response",
+      "nature-paper2ppt"
+    ],
+    "outcome": "可复用的论文写作与返修流程，包含阅读、证据、正文和汇报产物。"
+  },
+  {
+    "id": "task-design",
+    "title": "重设计 / 前端实现 / 视觉 QA",
+    "summary": "把现有页面升级成更清晰、更高级、可在桌面和移动端验证的界面。",
+    "signal": "适合已有项目的产品化重设计",
+    "routeId": "design-build",
+    "skillIds": [
+      "wpironman-blog-design",
+      "premium-section-prompts",
+      "design-taste-frontend",
+      "redesign-existing-projects",
+      "image-to-code"
+    ],
+    "outcome": "一个保留品牌识别、结构更稳定、交互更清楚的前端页面。"
+  },
+  {
+    "id": "task-review",
+    "title": "审稿 / 返修 / 证据核验",
+    "summary": "把审稿意见拆成修改计划、证据位置、回复信和待确认事项。",
+    "signal": "适合需要逐条回应审稿意见的团队",
+    "routeId": "review-revision",
+    "skillIds": [
+      "academic-review-workflow",
+      "nature-response",
+      "nature-citation",
+      "nature-figure",
+      "pdf"
+    ],
+    "outcome": "可追踪的返修清单，每条意见都能对应文档位置、证据或作者决策。"
+  },
+  {
+    "id": "task-ppt",
+    "title": "论文汇报 / 图表 / 演示文稿",
+    "summary": "从论文、PDF 或读书笔记生成能讲清楚的汇报结构、图表和讲稿。",
+    "signal": "适合组会、答辩和项目汇报",
+    "routeId": "presentation-figures",
+    "skillIds": [
+      "nature-paper2ppt",
+      "guizang-ppt-skill",
+      "nature-figure",
+      "pdf",
+      "nature-reader"
+    ],
+    "outcome": "可编辑的演示文稿、图表检查清单和清晰的讲述顺序。"
+  },
+  {
+    "id": "task-quality",
+    "title": "Skill 质量判断 / 选型 / 收录",
+    "summary": "根据来源、安装方式、适用边界和验证标准判断一个 skill 是否值得长期使用。",
+    "signal": "适合团队选型和个人工具库整理",
+    "routeId": "skill-quality",
+    "skillIds": [
+      "wpironman-blog-design",
+      "design-taste-frontend",
+      "ml-paper-writing",
+      "research-writing-assistant",
+      "pdf"
+    ],
+    "outcome": "一套可解释的选型结论，减少无效安装和重复试错。"
+  },
+  {
+    "id": "task-office",
+    "title": "文档 / 表格 / PDF / PPT",
+    "summary": "把报告、数据表、扫描件和演示文稿变成可编辑、可核验的办公交付物。",
+    "signal": "适合需要处理 Word、Excel、PDF 和 PPTX 的日常交付",
+    "routeId": "office-documents",
+    "skillIds": [
+      "anthropic-docx",
+      "anthropic-xlsx",
+      "anthropic-pdf",
+      "anthropic-pptx"
+    ],
+    "outcome": "可打开、可编辑、字段和页数经过抽样核验的文档包。"
+  },
+  {
+    "id": "task-engineering",
+    "title": "开发 / 调试 / 测试 / 审查",
+    "summary": "把功能实现、Web 验收、MCP 工具、TDD、根因调试和代码审查串成工程质量闭环。",
+    "signal": "适合需要稳定交付代码和工具链的开发任务",
+    "routeId": "engineering-quality",
+    "skillIds": [
+      "anthropic-webapp-testing",
+      "anthropic-mcp-builder",
+      "anthropic-skill-creator",
+      "superpowers-test-driven-development",
+      "superpowers-systematic-debugging",
+      "superpowers-verification-before-completion",
+      "superpowers-requesting-code-review"
+    ],
+    "outcome": "可复现的开发流程，包含测试证据、浏览器验收和完成前检查。"
+  }
+]

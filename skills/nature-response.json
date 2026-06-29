@@ -1,0 +1,35 @@
+{
+  "id": "nature-response",
+  "name": "Reviewer Response",
+  "source": "wp-a/nature-response",
+  "origin": "WPIRONMAN",
+  "category": "审稿",
+  "creator": "WPIRONMAN",
+  "workflow": "返修回复",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "逐条回复工作流",
+  "description": "把审稿意见、作者 notes 和修改证据整理成 point-by-point response letter。",
+  "bestFor": [
+    "Nature-family 或高影响力期刊返修",
+    "需要区分已完成修改、需补实验、需作者确认的问题",
+    "生成 response package 和作者行动清单"
+  ],
+  "avoidWhen": [
+    "没有 reviewer comments",
+    "作者还没决定是否接受审稿人的修改方向"
+  ],
+  "verification": [
+    "每条审稿意见都有逐点回应、修改位置或作者待确认项",
+    "新增实验、补充分析和文本修改能对应到 manuscript change log",
+    "语气保持专业克制，不回避审稿人核心问题"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-response",
+  "repo": "https://github.com/wp-a/nature-response",
+  "tags": [
+    "审稿",
+    "返修",
+    "Response Letter",
+    "Reviewer"
+  ]
+}

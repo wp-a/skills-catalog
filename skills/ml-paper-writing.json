@@ -1,0 +1,37 @@
+{
+  "id": "ml-paper-writing",
+  "name": "ML 顶会论文写作",
+  "source": "wp-a/ml-paper-writing",
+  "origin": "WPIRONMAN 整理",
+  "category": "论文写作",
+  "creator": "Orchestra Research / WPIRONMAN",
+  "workflow": "顶会论文初稿",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "顶会写作工作流",
+  "description": "面向 NeurIPS、ICML、ICLR、ACL、AAAI、COLM 和系统顶会的论文写作、结构、引用与 camera-ready 工作流。",
+  "bestFor": [
+    "从研究 repo、实验结果和 notes 写第一版论文",
+    "整理 Introduction、Method、Experiments 和 Related Work",
+    "需要严格处理引用、BibTeX 和 venue checklist"
+  ],
+  "avoidWhen": [
+    "没有任何实验结果或贡献边界",
+    "只需要一段中文润色"
+  ],
+  "verification": [
+    "论文主张能对应到实验结果、图表或代码证据",
+    "引用、BibTeX 和 venue checklist 已逐项核验",
+    "最终稿能按目标会议模板编译或进入 camera-ready 检查"
+  ],
+  "install": "npx skills add https://github.com/wp-a/ml-paper-writing",
+  "repo": "https://github.com/wp-a/ml-paper-writing",
+  "tags": [
+    "论文写作",
+    "NeurIPS",
+    "ICLR",
+    "ACL",
+    "LaTeX",
+    "引用"
+  ]
+}

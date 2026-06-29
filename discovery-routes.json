@@ -1,0 +1,161 @@
+[
+  {
+    "id": "research-thesis",
+    "name": "论文写作工作流",
+    "source": "xstongxue/best-skills",
+    "mode": "从选题到投稿",
+    "categoryHint": "论文写作",
+    "summary": "为论文选题、精读、检索、引用、正文、润色、图表和汇报组合可下载 skills。",
+    "prompt": "帮我把这篇论文或课题整理成可投稿、可答辩的写作计划。",
+    "query": "",
+    "skillIds": [
+      "research-writing-assistant",
+      "nature-reader",
+      "nature-academic-search",
+      "nature-citation",
+      "research-paper-writing",
+      "nature-writing",
+      "nature-polishing",
+      "nature-figure",
+      "nature-paper2ppt"
+    ]
+  },
+  {
+    "id": "evidence-map",
+    "name": "文献与证据地图",
+    "source": "ComposioHQ/awesome-claude-skills",
+    "mode": "证据链核验",
+    "categoryHint": "文献检索",
+    "summary": "把检索、阅读、引用和 PDF 核验放在同一个证据链里，减少无法追溯的结论。",
+    "prompt": "围绕这个 claim 找可核验来源，并生成 citation map 和待确认清单。",
+    "query": "",
+    "skillIds": [
+      "nature-academic-search",
+      "nature-citation",
+      "nature-reader",
+      "pdf",
+      "research-paper-writing"
+    ]
+  },
+  {
+    "id": "review-revision",
+    "name": "审稿返修闭环",
+    "source": "obra/superpowers",
+    "mode": "诊断到回复",
+    "categoryHint": "审稿",
+    "summary": "把预审、审稿意见、修改证据和 response letter 串成可验收的返修流程。",
+    "prompt": "把这些 reviewer comments 变成逐条回复、修改计划和作者待确认项。",
+    "query": "",
+    "skillIds": [
+      "academic-review-workflow",
+      "nature-response",
+      "research-paper-writing",
+      "nature-citation",
+      "nature-figure"
+    ]
+  },
+  {
+    "id": "presentation-figures",
+    "name": "图表与汇报产物",
+    "source": "xstongxue/best-skills",
+    "mode": "演示与图表",
+    "categoryHint": "PPT",
+    "summary": "先明确交付物是 PPT、图表、PDF 还是讲稿，再选对应的生成与检查 skill。",
+    "prompt": "把这篇论文整理成组会 PPT，并检查关键图表、图注和讲稿。",
+    "query": "",
+    "skillIds": [
+      "nature-paper2ppt",
+      "guizang-ppt-skill",
+      "nature-figure",
+      "pdf",
+      "nature-reader"
+    ]
+  },
+  {
+    "id": "design-build",
+    "name": "前端设计与实现",
+    "source": "anthropics/skills",
+    "mode": "设计到上线",
+    "categoryHint": "设计",
+    "summary": "覆盖页面审计、视觉方向、实现、动效和上线前 QA，降低模板化前端输出。",
+    "prompt": "先审计这个页面，再按目标受众重设计，并用截图验证桌面和移动端。",
+    "query": "",
+    "skillIds": [
+      "wpironman-blog-design",
+      "premium-section-prompts",
+      "design-taste-frontend",
+      "redesign-existing-projects",
+      "image-to-code",
+      "gpt-taste"
+    ]
+  },
+  {
+    "id": "skill-quality",
+    "name": "Skill 质量自查",
+    "source": "anthropics/skills + awesome-claude-skills",
+    "mode": "可安装可验证",
+    "categoryHint": "质量标准",
+    "summary": "看真实用例、安装方式、适用边界和验证证据，判断一个 skill 是否值得长期保留。",
+    "prompt": "帮我判断这个 skill 是否值得收录：看真实用例、安装方式、边界和测试证据。",
+    "query": "",
+    "skillIds": [
+      "wpironman-blog-design",
+      "ml-paper-writing",
+      "research-writing-assistant",
+      "design-taste-frontend",
+      "pdf"
+    ]
+  },
+  {
+    "id": "office-documents",
+    "name": "办公文档交付",
+    "source": "anthropics/skills",
+    "mode": "官方文档工具",
+    "categoryHint": "文档办公",
+    "summary": "把 DOCX、XLSX、PDF 和 PPTX 放在一个可核验的办公文档处理路径里。",
+    "prompt": "帮我把这些资料整理成 Word 报告、Excel 附表、PDF 附件和 PPTX 汇报，并逐项检查可编辑性。",
+    "query": "",
+    "skillIds": [
+      "anthropic-docx",
+      "anthropic-xlsx",
+      "anthropic-pdf",
+      "anthropic-pptx"
+    ]
+  },
+  {
+    "id": "section-prompt-design",
+    "name": "高级 UI 设计",
+    "source": "wp-a/premium-section-prompts",
+    "mode": "参考到 UI",
+    "categoryHint": "设计",
+    "summary": "把参考页面、截图或现成案例提炼成可执行的 UI section 设计 brief、实现约束和 QA 清单。",
+    "prompt": "把这个参考页面转成一份高级 UI section 设计方案，说明版式、动效、交互、响应式和验收标准。",
+    "query": "",
+    "skillIds": [
+      "premium-section-prompts",
+      "wpironman-blog-design",
+      "design-taste-frontend",
+      "image-to-code",
+      "gpt-taste"
+    ]
+  },
+  {
+    "id": "engineering-quality",
+    "name": "工程质量闭环",
+    "source": "obra/superpowers + anthropics/skills",
+    "mode": "实现到验收",
+    "categoryHint": "工程开发",
+    "summary": "用 TDD、系统调试、Webapp Testing、完成前验证和代码审查约束开发交付。",
+    "prompt": "帮我按 TDD 做这个功能，定位根因，用浏览器验证，再完成代码审查和验收记录。",
+    "query": "",
+    "skillIds": [
+      "superpowers-test-driven-development",
+      "superpowers-systematic-debugging",
+      "anthropic-webapp-testing",
+      "anthropic-mcp-builder",
+      "anthropic-skill-creator",
+      "superpowers-verification-before-completion",
+      "superpowers-requesting-code-review"
+    ]
+  }
+]

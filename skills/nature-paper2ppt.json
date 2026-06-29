@@ -1,0 +1,35 @@
+{
+  "id": "nature-paper2ppt",
+  "name": "论文汇报 PPT",
+  "source": "wp-a/nature-paper2ppt",
+  "origin": "WPIRONMAN",
+  "category": "PPT",
+  "creator": "WPIRONMAN",
+  "workflow": "Paper to PPT",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "论文组会汇报",
+  "description": "从论文 PDF、摘要、图注或阅读 notes 生成中文论文汇报 PPTX，带图表选择、讲稿和轻量 QA。",
+  "bestFor": [
+    "组会、journal club、论文分享",
+    "需要从原文提炼故事线和关键图",
+    "生成可编辑 PPTX 而不是纯文本大纲"
+  ],
+  "avoidWhen": [
+    "只需要一页摘要",
+    "没有论文原文或足够可靠的 notes"
+  ],
+  "verification": [
+    "PPT 故事线覆盖问题、方法、结果、局限和讨论",
+    "关键图表来源清楚，截图或重绘不改变论文含义",
+    "导出的 PPTX 可编辑，讲稿和图注能支撑口头汇报"
+  ],
+  "install": "npx skills add https://github.com/wp-a/nature-paper2ppt",
+  "repo": "https://github.com/wp-a/nature-paper2ppt",
+  "tags": [
+    "PPT",
+    "论文汇报",
+    "PPTX",
+    "组会"
+  ]
+}

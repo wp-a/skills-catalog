@@ -1,0 +1,38 @@
+{
+  "id": "research-writing-assistant",
+  "name": "科研写作助手",
+  "source": "Norman-bury/research-writing-skill",
+  "origin": "第三方",
+  "category": "论文写作",
+  "creator": "Norman-bury",
+  "workflow": "毕业论文与科研写作编排",
+  "installType": "GitHub 仓库",
+  "status": "来源已标注",
+  "quality": "多平台科研写作系统",
+  "description": "面向本科生、研究生和早期科研人员的科研写作协作系统，覆盖头脑风暴、章节写作、文献综述、LaTeX、图表、自审和环境配置。",
+  "bestFor": [
+    "毕业论文、课程论文或投稿初稿需要从选题推进到章节交付",
+    "需要先确认论文类型、学科、题目、研究背景、方法和章节结构",
+    "希望把写作正文、章节文件、LaTeX 项目、图表脚本和提示词资产放进可追踪流程"
+  ],
+  "avoidWhen": [
+    "只需要一两句英文润色",
+    "作者不愿提供题目、学科、方法、数据或文献来源",
+    "需要系统直接生成最终 Word 排版成品"
+  ],
+  "verification": [
+    "写作前完成头脑风暴或任务包，明确论文类型、学科和章节结构",
+    "文献、数据和引用可追溯，不编造来源或实验结果",
+    "章节写作后完成规范合规与质量检查，必要时再进入 LaTeX、图表或自审模块"
+  ],
+  "install": "git clone https://github.com/Norman-bury/research-writing-skill.git ~/.codex/research-writing-skill && mkdir -p ~/.agents/skills && ln -s ~/.codex/research-writing-skill/skills ~/.agents/skills/research-writing",
+  "repo": "https://github.com/Norman-bury/research-writing-skill",
+  "tags": [
+    "论文写作",
+    "毕业论文",
+    "文献综述",
+    "LaTeX",
+    "图表",
+    "去AI化"
+  ]
+}

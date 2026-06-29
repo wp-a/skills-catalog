@@ -1,0 +1,35 @@
+{
+  "id": "wpironman-blog-design",
+  "name": "WPIRONMAN 博客设计",
+  "source": "WPIRONMAN",
+  "origin": "WPIRONMAN",
+  "category": "设计",
+  "creator": "WPIRONMAN",
+  "workflow": "站点设计 QA",
+  "installType": "独立仓库",
+  "status": "可下载",
+  "quality": "公开站点工作流",
+  "description": "面向 Hexo 与 Butterfly 站点的受控设计、重构和上线前 QA 工作流。",
+  "bestFor": [
+    "博客、项目页和独立产品页的视觉打磨",
+    "需要保留评论、Pjax、导航和主题能力的改动",
+    "上线前需要桌面与移动端真实渲染 QA"
+  ],
+  "avoidWhen": [
+    "目标不是 Hexo 或 Butterfly 站点",
+    "只需要完全脱离现有代码库的通用前端建议"
+  ],
+  "verification": [
+    "改动前先读 Hexo/Butterfly 当前实现和页面级 CSS",
+    "生成后的 /skills/ 或目标页面在桌面与移动视口无横向溢出",
+    "Pjax、评论、导航和页面资源版本保持可用"
+  ],
+  "install": "npx skills add https://github.com/wp-a/wpironman-blog-design",
+  "repo": "https://github.com/wp-a/wpironman-blog-design",
+  "tags": [
+    "Hexo",
+    "Butterfly",
+    "QA",
+    "设计"
+  ]
+}

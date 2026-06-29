@@ -1,0 +1,35 @@
+{
+  "id": "superpowers-systematic-debugging",
+  "name": "Superpowers Systematic Debugging",
+  "source": "obra/superpowers/systematic-debugging",
+  "origin": "第三方高分",
+  "category": "工程开发",
+  "creator": "Jesse Vincent / obra",
+  "workflow": "根因优先调试",
+  "installType": "GitHub skill",
+  "status": "高分来源",
+  "quality": "Superpowers 核心 skill",
+  "description": "要求先查根因再修复，避免随机 patch 和只处理症状的调试方式。",
+  "bestFor": [
+    "测试失败、线上 bug 或行为异常需要定位根因",
+    "多个假设并存，需要证据化排查",
+    "修复前必须保护现有行为"
+  ],
+  "avoidWhen": [
+    "已经有明确可复现根因和最小修复",
+    "只是改文案或低风险样式微调"
+  ],
+  "verification": [
+    "修复前记录可复现症状和根因证据",
+    "修复能解释为什么问题不会再次出现",
+    "相关回归测试或验证命令通过"
+  ],
+  "install": "git clone https://github.com/obra/superpowers.git ~/.codex/superpowers && cp -R ~/.codex/superpowers/skills/systematic-debugging ~/.agents/skills/systematic-debugging",
+  "repo": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
+  "tags": [
+    "调试",
+    "根因",
+    "测试失败",
+    "高分"
+  ]
+}

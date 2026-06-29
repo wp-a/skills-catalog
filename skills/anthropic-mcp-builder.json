@@ -1,0 +1,35 @@
+{
+  "id": "anthropic-mcp-builder",
+  "name": "Anthropic MCP Builder",
+  "source": "anthropics/skills/mcp-builder",
+  "origin": "Anthropic 官方",
+  "category": "工程开发",
+  "creator": "Anthropic",
+  "workflow": "MCP 服务开发",
+  "installType": "官方 GitHub skill",
+  "status": "官方来源",
+  "quality": "官方 MCP 开发指南",
+  "description": "指导构建高质量 MCP 服务器，覆盖工具设计、API 集成、错误处理、测试和评估。",
+  "bestFor": [
+    "把外部 API 或内部服务接入 LLM 工具链",
+    "设计可发现、可组合、返回结构化结果的 MCP tools",
+    "为 MCP server 增加测试和评估问题"
+  ],
+  "avoidWhen": [
+    "只需要普通脚本，不需要暴露给 agent 使用",
+    "目标服务没有清晰 API 或权限模型"
+  ],
+  "verification": [
+    "工具命名、参数 schema 和错误消息可被 agent 理解",
+    "MCP Inspector 或等价方式能跑通核心工具",
+    "至少有覆盖真实任务的评估问题和答案核验"
+  ],
+  "install": "git clone https://github.com/anthropics/skills.git ~/.codex/anthropic-skills && cp -R ~/.codex/anthropic-skills/skills/mcp-builder ~/.agents/skills/mcp-builder",
+  "repo": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+  "tags": [
+    "MCP",
+    "API",
+    "工具设计",
+    "官方"
+  ]
+}

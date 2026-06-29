@@ -1,0 +1,110 @@
+[
+  {
+    "id": "daily-skills",
+    "name": "社区常用 Skill",
+    "description": "优先展示社区常用、能直接下载或打开仓库的科研、审稿、PPT、PDF 和站点工作流。",
+    "skillIds": [
+      "ml-paper-writing",
+      "research-paper-writing",
+      "research-writing-assistant",
+      "nature-reader",
+      "nature-academic-search",
+      "nature-citation",
+      "academic-review-workflow",
+      "nature-paper2ppt",
+      "guizang-ppt-skill",
+      "wpironman-blog-design"
+    ]
+  },
+  {
+    "id": "research-writing-flow",
+    "name": "科研写作流",
+    "description": "从精读、检索、引用、写正文、润色、图表、返修到汇报 PPT 的可下载 skill 工作流。",
+    "skillIds": [
+      "ml-paper-writing",
+      "research-paper-writing",
+      "research-writing-assistant",
+      "nature-reader",
+      "nature-writing",
+      "nature-polishing",
+      "nature-academic-search",
+      "nature-citation",
+      "nature-figure",
+      "nature-response",
+      "nature-paper2ppt",
+      "pdf"
+    ]
+  },
+  {
+    "id": "prompt-design-kit",
+    "name": "高级 UI 设计包",
+    "description": "把高级参考页面、版式模式和交互结构整理成可执行的 UI section 设计方案。",
+    "skillIds": [
+      "premium-section-prompts",
+      "wpironman-blog-design",
+      "design-taste-frontend",
+      "image-to-code",
+      "gpt-taste"
+    ]
+  },
+  {
+    "id": "design-taste-stack",
+    "name": "设计品味栈",
+    "description": "让界面工作少一点模板味：先读需求，再审计界面，最后用视觉纪律实现。",
+    "skillIds": [
+      "design-taste-frontend",
+      "premium-section-prompts",
+      "image-to-code",
+      "redesign-existing-projects",
+      "wpironman-blog-design"
+    ]
+  },
+  {
+    "id": "research-loop",
+    "name": "科研闭环",
+    "description": "覆盖文献精读、稿件诊断和可审阅的学术工作流产物。",
+    "skillIds": [
+      "nature-reader",
+      "academic-review-workflow",
+      "nature-academic-search",
+      "nature-citation"
+    ]
+  },
+  {
+    "id": "build-and-verify",
+    "name": "构建与验证",
+    "description": "从视觉参考到代码实现，再检查边界并避免主题回归。",
+    "skillIds": [
+      "wpironman-blog-design",
+      "premium-section-prompts",
+      "design-taste-frontend",
+      "redesign-existing-projects",
+      "pdf"
+    ]
+  },
+  {
+    "id": "official-office-kit",
+    "name": "官方办公文档包",
+    "description": "Anthropic 官方 DOCX、XLSX、PPTX、PDF skills，适合把内容变成可编辑交付物。",
+    "skillIds": [
+      "anthropic-docx",
+      "anthropic-xlsx",
+      "anthropic-pptx",
+      "anthropic-pdf"
+    ]
+  },
+  {
+    "id": "engineering-quality-kit",
+    "name": "工程质量包",
+    "description": "Web 测试、MCP、skill 创建、TDD、调试、验收和代码审查的高信任工程 workflow。",
+    "skillIds": [
+      "anthropic-webapp-testing",
+      "anthropic-mcp-builder",
+      "anthropic-skill-creator",
+      "superpowers-test-driven-development",
+      "superpowers-systematic-debugging",
+      "superpowers-verification-before-completion",
+      "superpowers-requesting-code-review"
+    ]
+  }
+]

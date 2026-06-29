@@ -1,0 +1,35 @@
+{
+  "id": "design-taste-frontend",
+  "name": "Design Taste Frontend",
+  "source": "Leonxlnx/taste-skill",
+  "origin": "第三方",
+  "category": "设计",
+  "creator": "Leonxlnx",
+  "workflow": "前端品味",
+  "installType": "GitHub skill",
+  "status": "来源已标注",
+  "quality": "实验性 v2",
+  "description": "一个反模板化前端 skill，强调先读懂设计意图，再做布局判断和视觉预检。",
+  "bestFor": [
+    "Landing page 和作品集页面",
+    "需要更强设计判断的重设计",
+    "避免默认 AI 紫色渐变式前端输出"
+  ],
+  "avoidWhen": [
+    "正在构建高密度 dashboard",
+    "需要严格套用企业级设计系统"
+  ],
+  "verification": [
+    "实现前已明确页面目标、受众和视觉方向",
+    "完成后检查间距、层级、颜色和响应式状态不模板化",
+    "桌面与移动截图确认没有文字溢出或组件重叠"
+  ],
+  "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"",
+  "repo": "https://github.com/Leonxlnx/taste-skill",
+  "tags": [
+    "前端",
+    "品味",
+    "Landing",
+    "重设计"
+  ]
+}
