@@ -27,7 +27,7 @@
     "中文查询披露 MeSH 或英文检索式，而不是整句直接当结果",
     "候选文献按相关性和证据用途筛选，而不是只按数量堆叠"
   ],
-  "install": "uv tool install nature-academic-search",
+  "install": "uv tool install nature-academic-search  # https://github.com/wp-a/nature-academic-search",
   "repo": "https://github.com/wp-a/nature-academic-search",
   "tags": [
     "文献检索",
