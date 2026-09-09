@@ -9,28 +9,33 @@
   "installType": "独立仓库",
   "status": "可下载",
   "quality": "多源检索工作流",
-  "description": "整合 PubMed、CrossRef、arXiv、Semantic Scholar 等来源，用于检索策略、引用核验和 BibTeX/RIS 管理。",
+  "description": "跨 CrossRef、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 MeSH、引用核验、引文图谱、临床试验检索和 RIS/BibTeX 导出。",
   "bestFor": [
     "系统性找相关工作",
     "核验 DOI、PMID、arXiv 和 BibTeX",
+    "中文问题先对照 MeSH/英文检索式再检索",
     "为 Related Work 构建可追溯证据"
   ],
   "avoidWhen": [
     "只想要一个很粗略的背景解释",
-    "没有明确主题、关键词或领域边界"
+    "没有明确主题、关键词或领域边界",
+    "需要 CNKI、万方、Web of Science 或 Scopus 覆盖"
   ],
   "verification": [
     "检索式、数据库和时间范围被完整记录",
     "DOI、PMID、arXiv ID 或 BibTeX 能回源核验",
+    "中文查询披露 MeSH 或英文检索式，而不是整句直接当结果",
     "候选文献按相关性和证据用途筛选，而不是只按数量堆叠"
   ],
-  "install": "npx skills add https://github.com/wp-a/nature-academic-search",
+  "install": "uv tool install nature-academic-search",
   "repo": "https://github.com/wp-a/nature-academic-search",
   "tags": [
     "文献检索",
     "CrossRef",
+    "OpenAlex",
     "arXiv",
     "PubMed",
+    "MeSH",
     "BibTeX"
   ]
 }
